@@ -109,7 +109,7 @@ CREATE TABLE documento (
     doc_nom VARCHAR,
     atc_cod INTEGER REFERENCES atc(atc_cod) ON DELETE RESTRICT ON UPDATE CASCADE
 );
-
+--tiene relacion de N a M
 -- Relaciones adicionales
 ALTER TABLE operador_montacarga
     ADD CONSTRAINT fk_operador_montacarga_op_cod_operador
