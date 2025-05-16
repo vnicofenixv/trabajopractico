@@ -1,4 +1,4 @@
---bd trabajo practico 
+--bd trabajo practico actualizado2
 -- Eliminar tablas si ya existen (para pruebas limpias)
 DROP TABLE IF EXISTS operador_montacarga, operador, montacarga, asistente, auxiliar, deposito, cliente, despachante, documento, aduana, operativa, atc, encargado, cfs CASCADE;
 
