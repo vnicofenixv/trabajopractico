@@ -149,3 +149,4 @@ CREATE TABLE aduana (
         REFERENCES operativa (op_cod)
         ON DELETE RESTRICT ON UPDATE CASCADE
 );
+--hola
